@@ -1,0 +1,88 @@
+#caja1 {
+  background-color: #265538;
+  border-radius: 10px;
+  padding: 10px;
+  display:flex ;
+  justify-content: space-between  ;
+  color: #ffffff;
+}
+
+#caja2 {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 15px;
+  background-image: url("../images/hero.jpg");
+  color: white;
+  text-align: center;
+}
+#caja3 {
+  background-color: #265538;
+  border-radius: 10px;
+  padding: 10px;
+  display:flex ;
+  justify-content: space-between  ;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#flexbox{
+  display:flex ;
+  justify-content:space-evenly  ;
+}
+.tabs {
+  display: flex;
+}
+.tab{
+  background-color: #265538 ;
+  width: 150px  ;
+  text-align: center;
+  border-radius: 10px;
+  margin:10px;
+}
+.tab a {
+  color: #ffffff;
+  display: block;
+  padding: 10px 0;
+}
+
+.receta {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receta h3 {
+  color: #b85750;
+  margin-top: 20px;
+}
+.receta ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.receta table {
+  width: 100%;
+  margin-top: 10px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.receta table td {
+  padding: 10px;
+  border-bottom: 1px solid #7E4333;
+}
+
+/* div {
+  } */
+body {
+  background-color: #f3e5d8;
+}
+
+.receta h2 {
+  color: #7e4333;
+}
+main {
+  padding: 20px;
+}
