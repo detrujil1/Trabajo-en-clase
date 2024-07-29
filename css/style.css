@@ -2,8 +2,8 @@
   background-color: #265538;
   border-radius: 10px;
   padding: 10px;
-  display:flex ;
-  justify-content: space-between  ;
+  display: flex;
+  justify-content: space-between;
   color: #ffffff;
 }
 
@@ -15,35 +15,35 @@
   color: white;
   text-align: center;
 }
+
 #caja3 {
   background-color: #265538;
   border-radius: 10px;
   padding: 10px;
-  display:flex ;
-  justify-content: space-between  ;
+  display: flex;
+  justify-content: space-between;
   color: #ffffff;
   text-align: center;
   margin-top: 20px;
 }
 
-#flexbox{
-  display:flex ;
-  justify-content:space-evenly  ;
+#flexbox {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-
-
 
 .tabs {
   display: flex;
 }
-.tab{
-  background-color: #265538 ;
-  width: 150px  ;
+
+.tab {
+  background-color: #265538;
+  width: 150px;
   text-align: center;
   border-radius: 10px;
-  margin:10px;
+  margin: 10px;
 }
+
 .tab a {
   color: #ffffff;
   display: block;
@@ -62,10 +62,12 @@
   color: #b85750;
   margin-top: 20px;
 }
+
 .receta ul {
   list-style-type: disc;
   padding-left: 20px;
 }
+
 .receta table {
   width: 100%;
   margin-top: 10px;
@@ -87,21 +89,35 @@ body {
 .receta h2 {
   color: #7e4333;
 }
+
 main {
   padding: 20px;
 }
 
 @media screen and (max-width: 700px) {
   .tabs {
-    flex-direction: column; /* Apilar botones verticalmente */
-    width: 100%; /* Asegurar que el contenedor tabs ocupe todo el ancho */
+    flex-direction: column;
+    /* Apilar botones verticalmente */
+    width: 100%;
+    /* Asegurar que el contenedor tabs ocupe todo el ancho */
   }
+
   .tab {
-    width: 100%; /* Hacer que los botones ocupen el 100% del ancho */
+    width: 100%;
+    /* Hacer que los botones ocupen el 100% del ancho */
+
   }
-  h2{
+
+  h2 {
     font-size: 40px;
   }
+
+  #caja2 {
+    display: none;
+  }
+
+  table tr td:nth-of-type(2) {
+    text-align: right;
+  }
+
 }
-
-
