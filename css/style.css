@@ -30,6 +30,10 @@
   display:flex ;
   justify-content:space-evenly  ;
 }
+
+
+
+
 .tabs {
   display: flex;
 }
@@ -86,3 +90,18 @@ body {
 main {
   padding: 20px;
 }
+
+@media screen and (max-width: 700px) {
+  .tabs {
+    flex-direction: column; /* Apilar botones verticalmente */
+    width: 100%; /* Asegurar que el contenedor tabs ocupe todo el ancho */
+  }
+  .tab {
+    width: 100%; /* Hacer que los botones ocupen el 100% del ancho */
+  }
+  h2{
+    font-size: 40px;
+  }
+}
+
+
